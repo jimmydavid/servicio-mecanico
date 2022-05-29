@@ -1,0 +1,6 @@
+{
+    "name" : "Api Rest Express - Desarrollo",
+    "configDB" :{
+        "HOST" : "mongodb://localhost:27017/servicio-mecanico"
+    }
+}

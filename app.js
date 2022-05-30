@@ -19,7 +19,6 @@ const configApi = (app) => {
 };
 
 const configRouter = (app) => {
-    console.log('entro a configurar routas');
     app.get('/', (req, res) => { res.send('Bienvenido al Servicio Mecánico');});
     app.use('/api/v1', routerConfig.apiRoutes());
 };
